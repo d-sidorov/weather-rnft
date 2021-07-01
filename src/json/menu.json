@@ -1,0 +1,26 @@
+{
+  "menu": [
+    {
+      "title": "Главная",
+      "link": "/",
+      "icon": "home"
+    },
+    {
+      "title": "Настройки портала",
+      "link": "/settings",
+      "icon": "settings",
+      "access": "admin"
+    },
+    {
+      "title": "Личный кабинет",
+      "icon": "perm_identity",
+      "submenu": [
+        {
+          "title": "Профиль",
+          "link": "/profile",
+          "icon": "perm_identity"
+        }
+      ]
+    }
+  ]
+}
